@@ -117,7 +117,7 @@ export default hopeTheme({
 
     docsearch: {
       apiKey: '7de33b6d5435eb8f4972b2515756f967',
-      indexName: 'bot-yunmengdu',
+      indexName: 'HifuuCraft-yunmengdu',
       appId: 'MWA1J06RXQ',
       placeholder: '搜索文档',
       translations: {
