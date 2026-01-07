@@ -1,5 +1,9 @@
 name: docs
 
+permissions:
+  contents: write
+  pages: write
+  
 on:
   # 每当 push 到 main 分支时触发部署
   push:
