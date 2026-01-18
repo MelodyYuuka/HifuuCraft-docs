@@ -46,47 +46,20 @@ ___
 2.拥有大量老登遗迹，可以前来考古
 
 ![1.12主城](./ymd-1.12-main-city.webp )
-::: center
-1.12.2主城
-:::
-![小镇一角](./Gensokyo.webp )
-::: center
-Gensokyo小镇一角
-:::
+![Gensokyo小镇一角](./Gensokyo.webp )
 ![赛博蚌埠一角](./bengbu.webp )
-::: center
-赛博蚌埠一角
-:::
 ![车站](./ymd-station.webp )
-::: center
-车站
-:::
-![](./tower.webp)
+![尖塔顶端](./tower.webp)
 
 ### 1.21.8空岛
 
  1.与1.12生存相反，空岛更加偏向原版，在原版基础上使用插件增加了一些装饰品
 
-![跨年合照](./2026year.webp )
-::: center
-2026年跨年合照
-:::
-![](./cherry%20blossom%20house.webp)
-::: center
-樱花小院
-:::
-![](./huge_2026-01-17_11.20.53.webp)
-::: center
-Fortbri以及他的岛员的杰作
-:::
-![](./huge_2026-01-17_11.27.51.webp)
-::: center
-envnon和他的岛员的杰作
-:::
-![](./2026-01-17_11.32.36.webp)
-::: center
-@*无糖红茶* 的画作
-:::
+![2026年跨年合照](./2026year.webp )
+![樱花小院](./cherry%20blossom%20house.webp)
+![Fortbri以及他的岛员的杰作](./huge_2026-01-17_11.20.53.webp)
+![envnon和他的岛员的杰作](./huge_2026-01-17_11.27.51.webp)
+![@*无糖红茶* 的画作](./2026-01-17_11.32.36.webp)
 
 2.**拥有700+的全新方块，每种都不重样**
 
