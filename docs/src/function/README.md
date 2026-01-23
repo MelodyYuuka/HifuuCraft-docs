@@ -45,6 +45,10 @@
 
 ### 3. /skin set
 
+:::info
+更多 `/skin` 用法请见 [SkinsRestorer Docs](https://skinsrestorer.net/docs/configuration/commands-permissions)
+:::
+
 你的正版名字 要是你之前的离线账号登录，换成正版账号登录后可能出现皮肤不刷新问题，可以使用后该指令刷新皮肤
 （在子服中使用可能导致断开连接并且回到大厅）
 

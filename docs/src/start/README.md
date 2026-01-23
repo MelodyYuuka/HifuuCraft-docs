@@ -74,7 +74,7 @@ ___
 ___
 
 <div style="display:flex; gap:16px; justify-content:space-between; align-items:flex-start;">
-  <div style="flex: 1 1 320px;; min-width: 220px;">
+  <div style="flex: 1 1 320px; min-width: 220px;">
     <p style="margin:2; font-size:20px;"><strong>全新的附魔系统</strong></p>
     <p style="margin:6px 0 0 0;">附魔台现在会给予更多更强力的附魔，让你的工具更加强大！</p>
   </div>
@@ -143,3 +143,12 @@ npm run docs:dev
 :::tip
 更多可见 [文档贡献指南](../about/contribute/zh_style.md)
 :::
+
+<a href="https://mcpack.yunmengdu.cn/1.21.11-with.zip"
+   style="display:flex; align-items:center; gap:12px; padding:12px 16px; border:1px solid #ccc; border-radius:10px; text-decoration:none; width:fit-content;">
+  <span style="font-size:22px; display:inline-block;">⬇️</span>
+  <span style="display:inline-block; vertical-align:middle; margin-left:8px;">
+    <span style="font-weight:700; display:block;">即刻开始游玩</span>
+    <span style="font-size:13px; opacity:0.8; display:block;">下载云梦都客户端 Minecraft 1.21.11</span>
+  </span>
+</a>
