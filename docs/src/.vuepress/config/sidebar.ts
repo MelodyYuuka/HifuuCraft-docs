@@ -6,12 +6,15 @@ export default sidebar({
       text: '开始',
       icon: 'signs-post',
       link: '/start/',
+      children: [
+        '/start/help.md',
+      ]
     },
-    // {
-    //   text: '指令',
-    //   icon: 'lightbulb',
-    //   link: '/function/',
-    // },
+     {
+       text: '指令',
+       icon: 'lightbulb',
+       link: '/function/',
+     },
     {
       text: 'FAQ',
       icon: 'circle-question',
