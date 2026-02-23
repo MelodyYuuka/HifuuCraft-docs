@@ -8,6 +8,8 @@ export default sidebar({
       link: '/start/',
       children: [
         '/start/help.md',
+        '/start/plugin/mcmmo.md',
+        '/start/plugin/skinsrestorer.md'
       ]
     },
      {
