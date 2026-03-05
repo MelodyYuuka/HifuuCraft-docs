@@ -2,7 +2,7 @@
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD056 -->
 
-# McMMO
+# 技能系统
 
 :::info
 本页面介绍了 1.12.2 生存服独占内容

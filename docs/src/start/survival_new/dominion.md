@@ -1,6 +1,6 @@
 <!--markdownlint-disable MD045-->
 
-# Dominion 领地插件
+# 领地系统
 
 ## 创建领地
 
@@ -403,14 +403,6 @@
 :::info
 以下指令参数 <> 表示必填项，[] 表示选填项。
 :::
-
-### 管理员
-
-| 指令名称&描述 | 用法 |
-| --- | --- |
-| 导出数据：导出插件数据到指定格式（mca 或 db）。 | /dominion export [mca\|db] |
-| 导入数据：从数据库导入插件数据。 | /dominion import \<db> [confirm] |
-| 重载配置：重载插件的配置、缓存或全部内容。 | /dominion reload [config\|cache\|all] |
 
 ### 主菜单
 

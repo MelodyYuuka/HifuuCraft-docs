@@ -25,30 +25,6 @@
 /skin help | 查询指令帮助
 /skins | 打开皮肤列表
 
-## 管理员指令
-
-此部分是仅限个别权限组或管理员才可以执行的指令
-
-指令 | 描述 | 权限
---- | --- | ---
-/skin set <皮肤名> (目标) (变体) | 更改目标玩家皮肤，默认为玩家自己 | player.skinsrestorer.command.set.other
-/skin update (目标) | 更新目标玩家的皮肤，默认为玩家自己 | skinsrestorer.command.update.other
-/skin clear (目标) | 清除目标玩家的皮肤，默认为玩家自己 | skinsrestorer.command.clear.other
-/sr | SkinsRestorer提供的管理员指令 | skinsrestorer.admincommand
-/sr createcustom <皮肤名> <皮肤输入> (变体) | 在服务端创建一个自定义皮肤 | skinsrestorer.admincommand.createcustom
-/sr setskinall <皮肤名> (变体) | 将所有玩家的皮肤更改为指定皮肤 | skinsrestorer.admincommand.setskinall
-/sr info <玩家名/皮肤名> <输入> | 展示与指定玩家或皮肤有关的信息 | skinsrestorer.admincommand.info
-/sr props <玩家名/皮肤名> <输入> | 同 /sr info | skinsrestorer.admincommand.info
-/sr lookup <玩家名/皮肤名> <输入> | 同 /sr info | skinsrestorer.admincommand.info
-/sr drop <玩家名/皮肤名> <目标> | 从数据库中移除与指定玩家或皮肤有关的数据 | skinsrestorer.admincommand.drop
-/sr remove <玩家名/皮肤名> <目标> | 同 /sr drop | skinsrestorer.admincommand.drop
-/sr purgeolddata <天数> | 移除x天前的皮肤数据 | skinsrestorer.admincommand.purgeolddata
-/sr applyskin <目标> | 重新为目标玩家应用皮肤 | skinsrestorer.admincommand.applyskin
-/sr dump | 上传诊断数据到 bytebin.lucko.me | skinsrestorer.admincommand.dump
-/sr applyskinall | 重新为所有玩家应用皮肤 | skinsrestorer.admincommand.applyskinall
-/sr status | 检查插件所需的API服务 | skinsrestorer.admincommand.status
-/sr reload | 重载配置文件 | skinsrestorer.admincommand.reload
-
 ## 参考资料
 
 1.<https://skinsrestorer.net/docs/configuration/commands-permissions>（英文）
