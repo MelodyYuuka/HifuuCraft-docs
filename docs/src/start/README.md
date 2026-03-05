@@ -11,7 +11,7 @@ icon: signs-post
 
 云梦都是一个minecraft服务器，始于2017
 
-![主城图片](./image/ymd-main-city.webp )
+![主城图片](./image/ymd-main-city.webp)
 
 ## 玩法说明
 
@@ -42,7 +42,7 @@ ___
 
 ### 1.12.2生存
 
-<sup>主条目：[1.12.2生存服](./surv_old)</sup>
+<sup>主条目：[1.12.2生存服](./survival_old/readme.md)</sup>
 
 ![1.12主城](./image/ymd-1.12-main-city.webp )
 
@@ -51,7 +51,7 @@ ___
 
 ### 1.21.11空岛
 
-<sup>主条目：[1.21空岛服](./skyblock)</sup>
+<sup>主条目：[1.21空岛服](./skyblock/readme.md)</sup>
 
 ![樱花小院](./image/cherry%20blossom%20house.webp)
 

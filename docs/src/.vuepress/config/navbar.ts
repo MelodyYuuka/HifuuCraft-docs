@@ -12,7 +12,7 @@ export default navbar([
     link: '/function/',
   },
   {
-    text: 'FAQ',
+    text: '常见问题',
     icon: 'circle-question',
     link: '/FAQ/',
   },
