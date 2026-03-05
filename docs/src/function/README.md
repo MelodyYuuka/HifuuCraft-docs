@@ -1,3 +1,5 @@
+<!--markdownlint-disable MD033-->
+
 # 常用指令
 
 ## 群内常用指令
