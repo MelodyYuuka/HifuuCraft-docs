@@ -19,7 +19,7 @@ export default sidebar({
       collapsible: true,
       children: [
         'mcmmo.md',
-        'slimefun.md'
+        'slimefun.md',
       ]
     },
     {
@@ -29,7 +29,7 @@ export default sidebar({
       prefix: "/start/skyblock/",
       collapsible: true,
       children: [
-        "enchantment/index.md"
+        "enchantment/index.md",
       ]
     },
     {
@@ -39,7 +39,8 @@ export default sidebar({
       prefix: "/start/survival_new/",
       collapsible: true,
       children: [
-        "dominion.md"
+        "dominion.md",
+        "aurelium.md",
       ]
     },
     // {
