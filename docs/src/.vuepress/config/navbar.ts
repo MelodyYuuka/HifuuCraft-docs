@@ -6,13 +6,13 @@ export default navbar([
     icon: 'signs-post',
     link: '/start/',
   },
-  // {
-  //   text: '指令',
-  //   icon: 'lightbulb',
-  //   link: '/function/',
-  // },
   {
-    text: 'FAQ',
+    text: '指令',
+    icon: 'lightbulb',
+    link: '/function/',
+  },
+  {
+    text: '常见问题',
     icon: 'circle-question',
     link: '/FAQ/',
   },

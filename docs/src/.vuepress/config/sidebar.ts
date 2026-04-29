@@ -3,19 +3,45 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   '/start': [
     {
-      text: '开始',
+      text: '服务器介绍',
       icon: 'signs-post',
       link: '/start/',
+      children: [
+        '/start/help.md',
+        '/start/plugin/skinsrestorer.md'
+      ]
     },
-    // {
-    //   text: '指令',
-    //   icon: 'lightbulb',
-    //   link: '/function/',
-    // },
     {
-      text: 'FAQ',
-      icon: 'circle-question',
-      link: '/FAQ/',
+      text: '1.12生存',
+      icon: 'lightbulb',
+      link: "/start/survival_old/",
+      prefix: "/start/survival_old/",
+      collapsible: true,
+      children: [
+        'mcmmo.md',
+        'slimefun.md',
+      ]
+    },
+    {
+      text: '1.21空岛',
+      icon: 'cubes',
+      link: "/start/skyblock/",
+      prefix: "/start/skyblock/",
+      collapsible: true,
+      children: [
+        "enchantment/index.md",
+      ]
+    },
+    {
+      text: "1.21生存",
+      icon: "flask-vial",
+      link: "/start/survival_new/",
+      prefix: "/start/survival_new/",
+      collapsible: true,
+      children: [
+        "dominion.md",
+        "aurelium.md",
+      ]
     },
     // {
     //   text: '更新日志',
