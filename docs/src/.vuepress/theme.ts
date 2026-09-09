@@ -26,7 +26,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["Language", "GroupLink", "Repo", "Outlook", "Search"],
+    end: ["Language", "Repo", "Outlook", "Search"],
   },
 
   pageInfo: [
@@ -107,8 +107,33 @@ export default hopeTheme({
 
     redirect: {
       config: {
+        // Keep the old public URLs working after the documentation restructure.
+        "/start/": "/getting-started/",
+        "/start/help": "/getting-started/",
+        "/start/skyblock/": "/servers/skyblock-26.2/",
+        "/start/skyblock/readme": "/servers/skyblock-26.2/",
+        "/start/skyblock/enchantment/": "/servers/skyblock-26.2/enchantment/",
+        "/start/skyblock/enchantment/enchantment-general": "/servers/skyblock-26.2/enchantment/enchantment-general.html",
+        "/start/survival_old/": "/servers/survival-1.12/",
+        "/start/survival_old/readme": "/servers/survival-1.12/",
+        "/start/survival_old/mcmmo": "/servers/survival-1.12/plugins/mcmmo.html",
+        "/start/survival_old/slimefun": "/servers/survival-1.12/plugins/slimefun.html",
+        "/start/survival_new/": "/servers/survival-1.21/",
+        "/start/survival_new/readme": "/servers/survival-1.21/",
+        "/start/survival_new/dominion": "/servers/survival-1.21/dominion.html",
+        "/start/survival_new/aurelium": "/servers/survival-1.21/aurelium.html",
+        "/start/plugin/": "/plugins/",
+        "/start/plugin/skinsrestorer": "/plugins/skinsrestorer.html",
+        "/FAQ/": "/reference/faq.html",
+        "/function/": "/reference/commands.html",
+        "/about/": "/community/",
+        "/about/sponsor": "/community/sponsor.html",
+        "/about/glossary": "/reference/glossary.html",
+        "/about/contribute/zh_style": "/community/contribute/zh_style.html",
+        "/about/contribute/md_style": "/community/contribute/md_style.html",
+        "/about/contribute/md_grammar": "/community/contribute/md_grammar.html",
         "/function/img/pjsk.md": "/function/img/stickers.md",
-      }
+      },
     },
 
     icon: {

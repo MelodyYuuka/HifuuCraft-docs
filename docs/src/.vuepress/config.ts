@@ -2,9 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension';
 import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics';
-import { getDirname, path } from 'vuepress/utils';
 
-const __dirname = getDirname(import.meta.url);
 
 
 export default defineUserConfig({
@@ -25,5 +23,4 @@ export default defineUserConfig({
     }),
     removeHtmlExtensionPlugin(),
   ],
-  clientConfigFile: path.resolve(__dirname, "./client.ts"),
 });

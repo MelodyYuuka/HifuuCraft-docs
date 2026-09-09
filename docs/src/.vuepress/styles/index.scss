@@ -1,1 +1,82 @@
-// place your custom styles here
+// Custom responsive layout and content styles.
+
+.vp-project-home .vp-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vp-project-home {
+  #main-description {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .vp-feature-item,
+  .vp-feature-details {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+.theme-hope-content {
+  overflow-wrap: anywhere;
+
+  table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.server-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 3fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.25rem 0 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 0.75rem;
+  background: var(--vp-c-bg-soft);
+
+  p:first-child {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 360px;
+    border-radius: 0.6rem;
+    object-fit: cover;
+    box-shadow: 0 8px 24px var(--vp-c-shadow);
+  }
+}
+
+@media (max-width: 719px) {
+  .vp-project-home .vp-hero-info {
+    padding-inline: 1rem;
+  }
+
+  .vp-project-home .vp-hero-actions {
+    justify-content: center;
+  }
+
+  .vp-project-home .vp-hero-action {
+    margin: 0.35rem;
+  }
+
+  .server-showcase {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+}

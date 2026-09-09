@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 <p align='center'>
-    <a herf=''>
+    <a href='https://mcdoc.yunmengdu.cn/'>
         <img src='./docs/src/.vuepress/public/images/logo.webp' width='250px' height='250px' alt='HifuuCraft'>
     </a>
 </p>
@@ -24,7 +24,7 @@
 
 ## 完善文档
 
-如果对文档有更多补充或建议, 欢迎提 issue 或 Pull request
+如果对文档有更多补充或建议，欢迎提交 Issue 或 Pull Request。
 
 ```shell
 git clone https://github.com/MelodyYuuka/HifuuCraft-docs
@@ -32,8 +32,8 @@ git clone https://github.com/MelodyYuuka/HifuuCraft-docs
 
 cd HifuuCraft-docs/docs
 
-pnpm install
-# 安装依赖
+pnpm install --frozen-lockfile
+# 按锁文件安装依赖
 
 pnpm docs:dev
 # 开始写作
@@ -41,7 +41,7 @@ pnpm docs:dev
 
 ## 反馈问题
 
-欢迎在 [云梦都Q群](https://qm.qq.com/q/kukOXwfbvG) 或 [issue](https://github.com/MelodyYuuka/HifuuCraft-docs/issues) 反馈问题
+欢迎在 [云梦都 QQ 群](https://qm.qq.com/q/kukOXwfbvG)，或通过 [Issue](https://github.com/MelodyYuuka/HifuuCraft-docs/issues) 反馈问题。
 
 [![CC-BY-SA-4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)  
 HifuuCraft-docs 采用 [知识共享 署名-相同方式共享 4.0 国际 许可协议](http://creativecommons.org/licenses/by-sa/4.0/)进行许可。
