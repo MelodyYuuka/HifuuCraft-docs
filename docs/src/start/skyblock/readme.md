@@ -9,6 +9,8 @@
 
 ## feature
 
+[原创附魔系统](../skyblock/enchantment/enchantment-general.md)
+
 ## changelog
 
 ## 展廊
